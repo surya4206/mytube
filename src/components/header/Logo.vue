@@ -1,5 +1,5 @@
 <template>
-    <a href="vuejs\dstube\index.html">DSTube</a>
+    <RouterLink to="/">DSTube</RouterLink>
 </template>
 
 <style scoped >

@@ -1,5 +1,5 @@
 <template>
-    <a :href="link">{{ title }}</a>
+    <RouterLink :to="link">{{ title }}</RouterLink>
 </template>
 
 <script setup>
@@ -10,7 +10,8 @@
         },
         link: {
             type: String,
-            required: true
+            required: false,
+            default: '/'
         }
     });
 </script>
